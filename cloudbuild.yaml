@@ -4,5 +4,3 @@
     - '-Dsonar.login=12e04faac0567120d725d4bc493976c4cf440471'
     - '-Dsonar.projectKey=sonar-git'
     - '-Dsonar.sources=.'
-    
-tags: ['cloud-builders-community']
