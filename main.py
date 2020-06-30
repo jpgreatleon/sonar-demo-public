@@ -6,5 +6,9 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
+@app.route('/sonar')
+def hello():
+    return "Hello Sonar!"
+
 if __name__ == '__main__':
     app.run()
