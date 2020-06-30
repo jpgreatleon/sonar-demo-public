@@ -2,7 +2,7 @@ steps:
   - name: 'gcr.io/$PROJECT_ID/sonar-scanner:latest'
     args:
     - '-Dsonar.host.url=http://35.201.181.7'
-    - '-Dsonar.login=d5c1cd3b328c16ca1edcc61f8985b15add8c54a0'
-    - '-Dsonar.projectKey=demo-python'
+    - '-Dsonar.login=12e04faac0567120d725d4bc493976c4cf440471'
+    - '-Dsonar.projectKey=sonar-git'
     - '-Dsonar.sources=.'
 tags: ['cloud-builders-community']
