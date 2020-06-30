@@ -8,7 +8,7 @@ def hello():
 
 @app.route('/sonar')
 def hello():
-    return "Hello Sonar!"
+    return "Hello SonarQube!"
 
 if __name__ == '__main__':
     app.run()
